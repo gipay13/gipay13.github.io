@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./asset/vendors/OwlCarousel2-2.3.4/owl.carousel.min.css">
+    <link rel="stylesheet" href="./asset/vendors/OwlCarousel2-2.3.4/owl.theme.default.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body style="background-color: #f7f7f7;">
+    <main class="max-w-md mx-auto bg-white">
+        <nav class="fixed bottom-4 left-1/2 transform -translate-x-1/2 inline-flex left-0 mx-auto justify-between bg-orange-500 opacity-70 z-10 w-11/12 md:w-1/4 rounded-3xl">
+            <a href="" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>                      
+            </a>
+            <a href="" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
+                </svg>                                            
+            </a>
+            <a href="" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                </svg>                                            
+            </a>
+            <a href="" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>                                            
+            </a> 
+        </nav>
+        <section id="banner" class="bg-orange-400 px-6">
+            <div class="flex justify-between py-3" >
+                <label class="relative block w-3/4">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" fill="none" class="w-6 h-6 stroke-gray-400 focus:stroke-orange-600">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg> 
+                    </span>
+                    <input class="placeholder:text-gray-400 bg-white w-full border border-slate-300 rounded-full py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-orange-600 focus:ring-orange-600 focus:ring-1 sm:text-sm" placeholder="Search" type="text" name="search"/>
+                    <span class="absolute inset-y-0 right-0 flex items-center pr-2 pt-2">
+                        <div class="relative text-left">
+                            <button id="dropdown-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" />
+                                </svg>                                  
+                            </button>
+                            <div id="dropdown-menu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
+                                <div class="py-2 p-2" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
+                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
+                                        Harga
+                                    </a>
+                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
+                                        Stok
+                                    </a>
+                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
+                                        A-Z
+                                    </a>
+                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
+                                        Terbaru
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </label>
+                <button class="rounded-full bg-white w-9 h-9 flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+                    </svg> 
+                </button>
+            </div>
+            <div class="owl-carousel pt-3">
+                <a href=""><img src="https://placehold.co/150x70" alt="" class="rounded-lg"></a>
+                <a href=""><img src="https://placehold.co/150x70" alt="" class="rounded-lg"></a>
+                <a href=""><img src="https://placehold.co/150x70" alt="" class="rounded-lg"></a>
+            </div>
+        </section>
+        <section id="category" class="py-5 px-5">
+            <div class="grid grid-cols-3 gap-4 ">
+                <a href="" class=" mx-auto py-4 px-4 rounded-lg shadow-2xl bg-gray-100">
+                    <img src="https://placehold.co/100x50" alt="">
+                </a>
+                <a href="" class=" mx-auto py-4 px-4 rounded-lg shadow-2xl bg-gray-100">
+                    <img src="https://placehold.co/100x50" alt="">
+                </a>
+                <a href="" class=" mx-auto py-4 px-4 rounded-lg shadow-2xl bg-gray-100">
+                    <img src="https://placehold.co/100x50" alt="">
+                </a>
+            </div>
+        </section>
+        <section id="product-one" class="py-5 px-5">
+            <div class="text-center border-t-2 border-b-2 border-orange-500 font-bold text-lg">MIRROR</div>
+            <div class="grid grid-cols-2 gap-4 pt-3">
+                <a href="">
+                    <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                        <div class="text-start pt-4">
+                            <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                            <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                            <div class="flex text-xs justify-between pt-3">
+                                <p class="line-through font-semibold">Rp. 315.000</p>
+                                <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                    <a href="">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                    </a>
+                    <div class="text-start pt-4">
+                        <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                        <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                        <div class="flex text-xs justify-between pt-3">
+                            <p class="line-through font-semibold">Rp. 315.000</p>
+                            <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="product-two" class="py-5 px-5">
+            <div class="text-center border-t-2 border-b-2 border-orange-500 font-bold text-lg">MIRROR</div>
+            <div class="grid grid-cols-2 gap-4 pt-3">
+                <a href="">
+                    <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                        <div class="text-start pt-4">
+                            <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                            <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                            <div class="flex text-xs justify-between pt-3">
+                                <p class="line-through font-semibold">Rp. 315.000</p>
+                                <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                        <div class="text-start pt-4">
+                            <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                            <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                            <div class="flex text-xs justify-between pt-3">
+                                <p class="line-through font-semibold">Rp. 315.000</p>
+                                <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="product-three" class="py-5 px-5">
+            <div class="text-center border-t-2 border-b-2 border-orange-500 font-bold text-lg">MIRROR</div>
+            <div class="grid grid-cols-2 gap-4 pt-3">
+                <a href="">
+                    <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                        <div class="text-start pt-4">
+                            <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                            <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                            <div class="flex text-xs justify-between pt-3">
+                                <p class="line-through font-semibold">Rp. 315.000</p>
+                                <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="p-4 bg-white rounded-lg shadow-md transform transition-transform duration-300 ease-in-out">
+                            <img class="w-full h-40 object-cover" alt="Card Image" src="https://placehold.co/150">
+                            <div class="text-start pt-4">
+                                <h2 class="text-lg font-semibold">RAF SIMONS</h2>
+                                <p class="text-xs">x Smiley Logo-print T-shirt</p>
+                                <div class="flex text-xs justify-between pt-3">
+                                    <p class="line-through font-semibold">Rp. 315.000</p>
+                                    <p class="font-semibold text-orange-500">Rp. 315.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+        </section>
+        <footer class="pt-5 pb-20 px-5">
+            <div class="grid grid-cols-3 gap-7 bg-orange-500 text-xs text-white p-4">
+                <div class="flex flex-col">
+                    <p class="font-bold">INFORMATION</p>
+                    <a href=""><p>ABOUT</p></a>
+                    <a href=""><p>CONTACT</p></a>
+                    <a href=""><p>PRIVACY POLICY</p></a>
+                </div>
+                <div class="flex flex-col">
+                    <p class="font-bold">FOLLOW US ON</p>
+                    <a href=""><p>TIKTOK</p></a>
+                    <a href=""><p>INSTAGRAM</p></a>
+                </div>
+                <div class="flex flex-col">
+                    <p class="font-bold">HELP</p>
+                    <a href=""><p>HOW TO PAY</p></a>
+                    <a href=""><p>TERM & CONDITIONS</p></a>
+                    <a href=""><p>PRIVACY POLICY</p></a>
+                </div>
+            </div>
+        </footer>
+    </main>
+<script src="./asset/vendors/jquery/jquery-3.7.1.min.js"></script>
+<script src="./asset/vendors/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $(".owl-carousel").owlCarousel({
+            margin:10,
+            items: 1,
+        });
+
+        const dropdownButton = document.getElementById('dropdown-button');
+        const dropdownMenu = document.getElementById('dropdown-menu');
+        let isDropdownOpen = true;
+    
+        function toggleDropdown() {
+            isDropdownOpen = !isDropdownOpen;
+            if (isDropdownOpen) {
+                dropdownMenu.classList.remove('hidden');
+            } else {
+                dropdownMenu.classList.add('hidden');
+            }
+        }
+    
+        toggleDropdown();
+    
+        dropdownButton.addEventListener('click', toggleDropdown);
+    
+        window.addEventListener('click', (event) => {
+            if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+                dropdownMenu.classList.add('hidden');
+                isDropdownOpen = false;
+            }
+        });
+    });
+</script>
+</body>
+</html>
