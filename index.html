@@ -4,104 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./asset/vendors/OwlCarousel2-2.3.4/owl.carousel.min.css">
-    <link rel="stylesheet" href="./asset/vendors/OwlCarousel2-2.3.4/owl.theme.default.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <link rel="stylesheet" href="./resource/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./resource/css/owl.theme.default.min.css">
+    <title>THINTOFATVIVIANEGAN</title>
 </head>
 <body style="background-color: #f7f7f7;">
     <main class="max-w-full md:max-w-lg xl:max-w-md mx-auto bg-[#F3E5E1]">
-        <nav class="fixed bottom-4 left-1/2 transform -translate-x-1/2 inline-flex bg-[#784F37] opacity-40 z-10 w-11/12 md:w-1/2 lg:w-2/6 xl:w-1/5 rounded-3xl">
+        <nav class="fixed bottom-4 left-1/2 transform -translate-x-1/2 inline-flex bg-[#784F37] opacity-40 z-10 w-11/12 md:w-1/2 lg:w-2/6 xl:w-1/4 rounded-full">
             <a href="./index.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                 </svg>                      
             </a>
-            <a href="./chat.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+            <a href="./pages/info.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
-                </svg>                                            
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+                  </svg>                                                              
             </a>
-            <a href="./cart.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+            <a href="./pages/cart.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                 </svg>                                            
             </a>
-            <a href="./profile.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
+            <a href="./pages/profile.html" class="inline-flex flex-col items-center text-xs font-medium py-3 px-4 text-white flex-grow">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 stroke-white">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
                 </svg>                                            
             </a> 
         </nav>
         <section id="banner" class="bg-[#972167] px-6 pt-4">
-            <div class="w-full flex justify-between py-3" >
+            <div class="w-full flex justify-between py-3">
                 <div class="relative w-3/4">
-                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" fill="none" class="w-6 h-6 stroke-black">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" fill="none" class="w-5 h-5 stroke-gray-500">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                         </svg> 
                     </span>
-                    <input class="placeholder:text-black bg-white w-full border border-slate-300 rounded-full py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#890051] focus:ring-[#890051] focus:ring-1" placeholder="Search" type="text" name="search"/>
-                    <span class="absolute inset-y-0 right-0 flex items-center pr-2 pt-2">
-                        <div class="relative text-left">
-                            <button id="dropdown-button">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 13.5V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m12-3V3.75m0 9.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 3.75V16.5m-6-9V3.75m0 3.75a1.5 1.5 0 010 3m0-3a1.5 1.5 0 000 3m0 9.75V10.5" />
-                                </svg>                                  
-                            </button>
-                            <div id="dropdown-menu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-10">
-                                <div class="py-2 p-2" role="menu" aria-orientation="vertical" aria-labelledby="dropdown-button">
-                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
-                                        Harga
-                                    </a>
-                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
-                                        Stok
-                                    </a>
-                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
-                                        A-Z
-                                    </a>
-                                    <a class="flex block rounded-md px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 active:bg-blue-100 cursor-pointer" role="menuitem">
-                                        Terbaru
-                                    </a>
-                                </div>
-                            </div>
+                    <input class="placeholder:text-gray-400 bg-white w-full border border-gray-300 rounded-full py-2 pl-9 pr-3 shadow-sm focus:outline-none focus:border-[#890051] focus:ring-[#890051] focus:ring-1" placeholder="Search" type="text" name="search"/>
+                    <!-- <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-center inline-flex items-center " type="button">
+                            <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                            </svg>
+                        </button>
+                        <div id="dropdown" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+                            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Dashboard</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Settings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Earnings</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Sign out</a>
+                            </li>
+                            </ul>
                         </div>
-                    </span>
+    
+                    </span> -->
                 </div>
-                <a href="" class="p-1 rounded-full bg-white flex justify-center items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <a href="" class="p-2.5 rounded-full bg-white flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
                     </svg> 
                 </a>
             </div>
             <div class="banner-carousel owl-carousel pt-3">
-                <a href=""><img src="./asset/images/banner.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg"></a>
-                <a href=""><img src="./asset/images/banner_2.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg"></a>
-                <a href=""><img src="./asset/images/banner_3.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg"></a>
+                <img src="./resource/images/banner.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg">
+                <img src="./resource/images/banner_2.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg">
+                <img src="./resource/images/banner_3.jpeg" alt="" class="w-full h-40 md:h-48 object-cover rounded-lg">
             </div>
         </section>
         <section id="category" class="py-5 px-5">
             <div class="grid grid-cols-3 gap-4 ">
-                <a href="./product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
-                    <img class="w-full h-full object-contain" src="./asset/images/kategori_1.png" alt="">
+                <a href="./pages/product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
+                    <img class="w-full h-full object-contain" src="./resource/images/kategori_1.png" alt="">
                 </a>
-                <a href="./product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
-                    <img class="w-full h-full object-contain" src="./asset/images/kategori_3.png" alt="">
+                <a href="./pages/product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
+                    <img class="w-full h-full object-contain" src="./resource/images/kategori_3.png" alt="">
                 </a>
-                <a href="./product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
-                    <img class="w-full h-full object-contain" src="./asset/images/kategori_2.png" alt="">
+                <a href="./pages/product.html" class="mx-auto p-4 rounded-lg shadow-2xl">
+                    <img class="w-full h-full object-contain" src="./resource/images/kategori_2.png" alt="">
                 </a>
             </div>
         </section>
         <section id="product-one" class="py-5 px-5">
             <h3 class="text-center border-t-2 border-b-2 border-pink-500 font-bold text-lg">VIVIANE GAN</h3>
-            <div class="product-carousel owl-carousel pt-3 w-full h-72">
-                <a href="./product-detail.html">
+            <div class="product-carousel owl-carousel pt-3">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_5.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_5.jpeg">
                         <div class="text-start pt-4">
-                            <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">Parfum YSL Libre</h2>
-                            <p class="text-xs">Parfum Midnight</p>
+                            <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Parfum YSL Libre</h2>
+                            <p class="text-xs text-gray-500">Parfum Midnight</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 300.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 300.000</p>
@@ -109,12 +108,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_6.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_6.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">Parfum Bacarat</h2>
-                            <p class="text-xs">Parfum Summer</p>
+                            <p class="text-xs text-gray-500">Parfum Summer</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 350.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 350.000</p>
@@ -122,12 +121,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_5.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_5.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercaseoverflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">Parfum Bacarat</h2>
-                            <p class="text-xs">Parfum Summer</p>
+                            <p class="text-xs text-gray-500">Parfum Summer</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 350.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 350.000</p>
@@ -135,7 +134,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product.html" class="h-max">
+                <a href="./pages/product.html" class="h-max">
                     <div class="p-4 bg-white rounded-lg shadow-md">
                         <div class="flex flex-col items-center justify-center text-pink-500">
                             <div class="p-5 rounded-full hover:bg-gray-200">
@@ -152,12 +151,12 @@
         <section id="product-two" class="py-5 px-5">
             <h3 class="text-center border-t-2 border-b-2 border-pink-500 font-bold text-lg">MIROIR</h3>
             <div class="product-carousel owl-carousel pt-3">
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/product-4.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/product-4.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">MR3-9999-9</h2>
-                            <p class="text-xs">Tas Stylish</p>
+                            <p class="text-xs text-gray-500">Tas Stylish</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 5.100.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 5.100.000</p>
@@ -165,12 +164,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/product-3.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/product-3.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">MR3-7777-7</h2>
-                            <p class="text-xs">Tas Stylish</p>
+                            <p class="text-xs text-gray-500">Tas Stylish</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 2.200.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 2.200.000</p>
@@ -178,12 +177,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/product-4.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/product-4.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">MR3-9999-9</h2>
-                            <p class="text-xs">Tas Stylish</p>
+                            <p class="text-xs text-gray-500">Tas Stylish</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 5.100.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 5.100.000</p>
@@ -191,7 +190,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product.html" class="h-max">
+                <a href="./pages/product.html" class="h-max">
                     <div class="p-4 bg-white rounded-lg shadow-md">
                         <div class="flex flex-col items-center justify-center text-pink-500">
                             <div class="p-5 rounded-full hover:bg-gray-200">
@@ -208,12 +207,12 @@
         <section id="product-three" class="py-5 px-5">
             <h3 class="text-center border-t-2 border-b-2 border-pink-500 font-bold text-lg">THIN TO FAT</h3>
             <div class="product-carousel owl-carousel pt-3">
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_1.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_1.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">JAKET HMES</h2>
-                            <p class="text-xs">x Smiley Logo-print Jacket</p>
+                            <p class="text-xs text-gray-500">x Smiley Logo-print Jacket</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 315.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 315.000</p>
@@ -221,12 +220,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_2.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_2.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">BLOUSE RAJUT</h2>
-                            <p class="text-xs">x Smiley Logo-print Sweater</p>
+                            <p class="text-xs text-gray-500">x Smiley Logo-print Sweater</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 315.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 315.000</p>
@@ -234,12 +233,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product-detail.html">
+                <a href="./pages/product-detail.html">
                     <div class="p-4 bg-white rounded-lg shadow-md">
-                        <img class="w-full h-40 object-cover" alt="Card Image" src="./asset/images/produk_1.jpeg">
+                        <img class="w-full h-40 object-cover" alt="Card Image" src="./resource/images/produk_1.jpeg">
                         <div class="text-start pt-4">
                             <h2 class="text-xs md:text-sm font-semibold uppercase overflow-hidden whitespace-pre-wrap" style=" display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">JAKET HMES</h2>
-                            <p class="text-xs">x Smiley Logo-print Jacket</p>
+                            <p class="text-xs text-gray-500">x Smiley Logo-print Jacket</p>
                             <div class="flex flex-col md:flex-row text-xs justify-between pt-3">
                                 <p class="line-through font-semibold">Rp. 315.000</p>
                                 <p class="font-semibold text-pink-500">Rp. 315.000</p>
@@ -247,7 +246,7 @@
                         </div>
                     </div>
                 </a>
-                <a href="./product.html" class="h-max">
+                <a href="./pages/product.html" class="h-max">
                     <div class="p-4 bg-white rounded-lg shadow-md">
                         <div class="flex flex-col items-center justify-center text-pink-500">
                             <div class="p-5 rounded-full hover:bg-gray-200">
@@ -261,36 +260,37 @@
                 </a>
             </div>
         </section>
-        
         <footer class="pt-5 pb-20 px-5">
-            <div class="grid grid-cols-3 gap-7 bg-[#972167] text-xs text-white p-4">
+            <div class="flex gap-5 bg-[#972167] text-xs text-white p-4">
                 <div class="flex flex-col">
                     <p class="font-bold">INFORMATION</p>
-                    <a href=""><p>ABOUT</p></a>
-                    <a href=""><p>CONTACT</p></a>
-                    <a href=""><p>PRIVACY POLICY</p></a>
+                    <a class="hover:text-gray-300" href=""><p>ABOUT</p></a>
+                    <a class="hover:text-gray-300" href=""><p>CONTACT</p></a>
+                    <a class="hover:text-gray-300" href=""><p>PRIVACY POLICY</p></a>
                 </div>
                 <div class="flex flex-col">
                     <p class="font-bold">FOLLOW US ON</p>
-                    <a href=""><p>TIKTOK</p></a>
-                    <a href=""><p>INSTAGRAM</p></a>
+                    <a class="hover:text-gray-300" href=""><p>TIKTOK</p></a>
+                    <a class="hover:text-gray-300" href=""><p>INSTAGRAM</p></a>
                 </div>
                 <div class="flex flex-col">
                     <p class="font-bold">HELP</p>
-                    <a href=""><p>HOW TO PAY</p></a>
-                    <a href=""><p>TERM & CONDITIONS</p></a>
-                    <a href=""><p>PRIVACY POLICY</p></a>
+                    <a class="hover:text-gray-300" href=""><p>HOW TO PAY</p></a>
+                    <a class="hover:text-gray-300" href=""><p>TERM & CONDITIONS</p></a>
+                    <a class="hover:text-gray-300" href=""><p>PRIVACY POLICY</p></a>
                 </div>
             </div>
         </footer>
     </main>
-<script src="./asset/vendors/jquery/jquery-3.7.1.min.js"></script>
-<script src="./asset/vendors/OwlCarousel2-2.3.4/owl.carousel.min.js"></script>
+<script src="./resource/js/jquery-3.7.1.min.js"></script>
+<script src="./resource/js/owl.carousel.min.js"></script>
 <script>
     $(document).ready(function(){
         $(".banner-carousel").owlCarousel({
             margin:10,
             items: 1,
+            loop:true,
+            autoplay:true,
         });
 
         $(".product-carousel").owlCarousel({
@@ -298,29 +298,6 @@
             items: 2,
         });
 
-        const dropdownButton = document.getElementById('dropdown-button');
-        const dropdownMenu = document.getElementById('dropdown-menu');
-        let isDropdownOpen = true;
-    
-        function toggleDropdown() {
-            isDropdownOpen = !isDropdownOpen;
-            if (isDropdownOpen) {
-                dropdownMenu.classList.remove('hidden');
-            } else {
-                dropdownMenu.classList.add('hidden');
-            }
-        }
-    
-        toggleDropdown();
-    
-        dropdownButton.addEventListener('click', toggleDropdown);
-    
-        window.addEventListener('click', (event) => {
-            if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
-                dropdownMenu.classList.add('hidden');
-                isDropdownOpen = false;
-            }
-        });
     });
 </script>
 </body>
