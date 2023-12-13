@@ -49,9 +49,16 @@
         </section>
         <section class="w-full py-3">
             <div class="border-b border-gray-500 px-5">
-                <div class="flex space-x-3 overflow-x-auto" aria-label="Tabs" role="tablist">
+                <div class="flex space-x-3 overflow-x-auto
+                [&::-webkit-scrollbar]:h-1.5
+                [&::-webkit-scrollbar-track]:rounded-full
+                [&::-webkit-scrollbar-thumb]:bg-gray-300
+                [&::-webkit-scrollbar-thumb]:rounded-full" aria-label="Tabs" role="tablist">
                     <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-pink-500 hs-tab-active:text-pink-500 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-pink-500 focus:outline-none focus:text-pink-500  active" id="tabs-with-underline-item-1" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
                         Belum Bayar
+                    </button>
+                    <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-pink-500 hs-tab-active:text-pink-500 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-pink-500 focus:outline-none focus:text-pink-500 " id="tabs-with-underline-item-6" data-hs-tab="#tabs-with-underline-6" aria-controls="tabs-with-underline-6" role="tab">
+                        Dikemas
                     </button>
                     <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-pink-500 hs-tab-active:text-pink-500 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-pink-500 focus:outline-none focus:text-pink-500 " id="tabs-with-underline-item-2" data-hs-tab="#tabs-with-underline-2" aria-controls="tabs-with-underline-2" role="tab">
                         Dikirim
@@ -88,6 +95,32 @@
                                     <div class="flex">
                                         <button type="button" class="ml-3 px-5 py-1 rounded-sm text-xs md:text-sm border border-pink-500 text-gray-500 hover:bg-pink-500 hover:text-white">
                                             Bayar                                     
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tabs-with-underline-6" class="hidden" role="tabpanel" aria-labelledby="tabs-with-underline-item-6">
+                    <ul role="list" class="flex flex-col gap-2">
+                        <li class="flex px-5 py-3 shadow box-shadow-xl bg-white/30">
+                            <div class="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border-y border-pink-500">
+                                <img src="../resource/images/product-3.jpeg" alt="" class="h-full w-full object-cover object-center">
+                            </div>
+                            <div class="ml-4 flex flex-1 justify-between flex-col">
+                                <div class="">
+                                    <p class="w-3/4 text-xs md:text-sm font-semibold">
+                                        Throwback Hip Bag
+                                    </p>
+                                    <p class="text-xs md:text-sm font-semibold">Rp. 315.000</p>
+                                    <p class="mt-1 text-xs text-gray-500">Red, SM</p>
+                                </div>
+                                <div class="flex items-center justify-between text-sm">
+                                    <p class="text-xs md:text-sm font-semibold">Qty 1</p>
+                                    <div class="flex">
+                                        <button type="button" class="ml-3 px-5 py-1 rounded-sm text-xs md:text-sm border border-pink-500 text-gray-500 hover:bg-pink-500 hover:text-white">
+                                            Chat Admin                                     
                                         </button>
                                     </div>
                                 </div>
